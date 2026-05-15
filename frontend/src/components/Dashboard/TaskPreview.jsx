@@ -1,9 +1,8 @@
 import { useNavigate } from "react-router-dom";
-import useTaskContext from "../../hooks/useTaskContext.js";
 
-export default function TaskPreview({ tasks }) {
+
+export default function TaskPreview({ tasks , updateTask}) {
   const navigate = useNavigate();
-  const { updateTask } = useTaskContext();
 
   const priorityBorder = {
     Low: "border-green-400",
