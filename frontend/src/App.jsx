@@ -23,7 +23,7 @@ import ShareRoutine from "./pages/ShareRoutine.jsx";
 
 
 const AuthLayout = ({ children }) => (
-  <div className="min-h-[calc(100vh-3.75rem)] flex items-center justify-center px-4">
+  <div className="min-h-[calc(100vh-3.75rem)] flex items-center justify-center">
     {children}
   </div>
 );
